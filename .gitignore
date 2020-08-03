@@ -3,3 +3,6 @@
 !tencent13147342467085209222.txt
 desktop.ini
 /.idea/
+/leetcode/*.iml
+*.iml
+/leetcode/target/
