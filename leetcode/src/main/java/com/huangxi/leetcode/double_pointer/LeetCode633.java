@@ -23,6 +23,13 @@ import java.util.Map;
  */
 public class LeetCode633 {
 
+ /**
+  * 解答成功:
+  * 执行耗时:2 ms,击败了97.02% 的Java用户
+  * 内存消耗:36.3 MB,击败了62.67% 的Java用户
+  * @param target
+  * @return
+  */
  public static boolean judgeSquareNum(int target){
   if(target<0){
    return false;

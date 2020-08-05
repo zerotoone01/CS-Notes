@@ -19,6 +19,15 @@ import com.alibaba.fastjson.JSON;
  */
 public class LeetCode167 {
 
+  /**
+   * 线上测试结果：
+   * 解答成功:
+   * 执行耗时:1 ms,击败了96.38% 的Java用户
+   * 内存消耗:40.2 MB,击败了28.22% 的Java用户
+   * @param numbers
+   * @param target
+   * @return
+   */
   public static int[] twoSum(int[] numbers, int target) {
     if (numbers == null) return null;
     int i = 0, j = numbers.length - 1;
