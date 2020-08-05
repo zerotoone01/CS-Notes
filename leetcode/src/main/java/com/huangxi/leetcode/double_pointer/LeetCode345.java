@@ -20,6 +20,13 @@ public class LeetCode345 {
     private final static HashSet<Character> vowels = new HashSet(
             Arrays.asList('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'));
 
+    /**
+     * 解答成功:
+     * 执行耗时:5 ms,击败了49.15% 的Java用户
+     * 内存消耗:40.2 MB,击败了15.47% 的Java用户
+     * @param s
+     * @return
+     */
     public static String reverseVowels(String s) {
         if(s==null) return null;
         int i=0,j=s.length()-1;
